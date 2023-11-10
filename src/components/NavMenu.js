@@ -9,7 +9,7 @@ const NavMenuStyles = styled.div`
   left: 0;
   width: 100%;
   padding: 1rem 0;
-  background: var(--dark-bg);
+  background: var(--blue-grey);
   ul {
     max-width: 1200px;
     margin: 0 auto;
@@ -51,7 +51,7 @@ export default function NavMenu() {
           <NavLink to="/projects">Project</NavLink>
         </li>
         <li>
-          <NavLink to="/contacts">Contacts</NavLink>
+          <NavLink to="/contact">Contact</NavLink>
         </li>
       </ul>
     </NavMenuStyles>
