@@ -1,10 +1,10 @@
 import React from 'react';
+import NavMenu from './components/NavMenu';
 
 export default function App() {
   return (
     <>
-      <h1>Welcome to react portfolio Project</h1>
-      <h3>-Jeremy Blau</h3>
+      <NavMenu />
     </>
   );
 }
