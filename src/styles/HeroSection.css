@@ -2,11 +2,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh; /* Full height of the viewport */
   }
   
   .container {
     text-align: center;
+    padding-top: 100px/* Add the height of your navigation bar */;
   }
   
   .hero__img-container {

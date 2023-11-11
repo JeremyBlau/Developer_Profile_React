@@ -1,7 +1,8 @@
 import React from 'react';
-import HeroImg from '../assets/images/hero.png';
+import HeroImg from '../assets/images/Hero.png';
 import PText from './PText';
 import '../styles/HeroSection.css';
+import Button from './Button';
 
 export default function HeroSection() {
   return (
@@ -18,9 +19,10 @@ export default function HeroSection() {
           <div className="hero__info">
             <PText>
               I have been a product manager for many years, and recently I've
-              worked to upgrade my developer skills. Please enjoy browsing my
-              body of work.
+              worked to upgrade my front-end developer skills. Please enjoy
+              browsing my body of work.
             </PText>
+            <Button btnLink="/projects" />
           </div>
         </div>
       </div>
