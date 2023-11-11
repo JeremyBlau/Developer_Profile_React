@@ -22,7 +22,7 @@ const ButtonStyle = styled.div`
 `;
 
 export default function Button({
-  btnText = 'test',
+  btnText = 'see my projects',
   btnLink = 'test',
   outline = false,
 }) {
