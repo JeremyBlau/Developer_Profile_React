@@ -1,0 +1,22 @@
+.hero__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full height of the viewport */
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .hero__img-container {
+    max-width: 50%; /* Adjust the percentage as needed */
+    text-align: center; /* Center the image within its container */
+    margin: 0 auto; /* Center the container within its parent */
+  }
+  
+  .hero__img {
+    max-width: 100%;
+    height: auto;
+  }
+  
