@@ -5,45 +5,9 @@ import PText from './PText';
 import '../styles/HeroSection.css';
 import Button from './Button';
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
-import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg';
 
 const HeroStyles = styled.div`
-  .hero {
-    height: 100vh;
-    min-height: 1000px;
-    width: 100%;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-  }
-  .hero__heading {
-    font-size: 2rem;
-    margin-bottom: -4rem;
-    position: relative;
-    span {
-      display: inline-block;
-      width: 100%;
-    }
-    .hero__name {
-      font-family: 'Montserrat SemiBold';
-      font-size: 7rem;
-      color: var(--white);
-    }
-  }
-  .hero__img {
-    max-width: 900px;
-    width: 100%;
-    height: 600px;
-    margin: 0 auto;
-    border: 2px solid var(--gray-1);
-  }
-  .hero__info {
-    margin-top: -18rem;
-  }
-  .hero__social,
-  .hero__scrollDown {
+  .hero__social {
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -55,16 +19,12 @@ const HeroStyles = styled.div`
   .hero__social {
     left: 50px;
   }
-  .hero__scrollDown {
-    right: 50px;
-  }
 
-  .hero__social__indicator,
-  .hero__scrollDown {
+  .hero__social__indicator {
     width: 50px;
     p {
       font-size: 1.6rem;
-      transform: translateY(-70px) rotate(90deg);
+      transform: translateY(-40px) rotate(-90deg);
       letter-spacing: 0.7rem;
       text-transform: uppercase;
     }
@@ -73,11 +33,6 @@ const HeroStyles = styled.div`
       width: 16px;
       margin: 0 auto;
       object-fit: contain;
-    }
-  }
-  .hero__scrollDown {
-    img {
-      max-height: 70px;
     }
   }
 
@@ -155,8 +110,9 @@ export default function HeroSection() {
         <div className="hero__container">
           <div className="container">
             <h1 className="hero__heading">
-              <span>Hello, my name is</span>
-              <span> Jeremy Blau</span>
+              <span className="hero__name">Hello, my name is </span>
+              <p> </p>
+              <span className="hero__name--highlight">Jeremy Blau</span>
             </h1>
             <div className="hero__img-container">
               <img src={HeroImg} alt="" />
@@ -178,25 +134,7 @@ export default function HeroSection() {
                 <ul>
                   <li>
                     <a
-                      href="http://facebook.com/webcifar"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      FB
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="http://twitter.com/webcifar"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      TW
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="http://isntagram.com/web_cifar"
+                      href="https://www.instagram.com/jeremy.blau/"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -205,7 +143,7 @@ export default function HeroSection() {
                   </li>
                   <li>
                     <a
-                      href="http://webcifar.com"
+                      href="https://www.linkedin.com/in/jeremy-blau-4636a058/"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -214,10 +152,6 @@ export default function HeroSection() {
                   </li>
                 </ul>
               </div>
-            </div>
-            <div className="hero__scrollDown">
-              <p>Scroll</p>
-              <img src={ScrollDownArrow} alt="ScrollDown Arrow" />
             </div>
           </div>
         </div>

@@ -6,7 +6,7 @@
   
   .container {
     text-align: center;
-    padding-top: 100px/* Add the height of your navigation bar */;
+    padding-top: 70px/* Add the height of your navigation bar */;
   }
   
   .hero__img-container {
@@ -19,4 +19,13 @@
     max-width: 100%;
     height: auto;
   }
-  
+  .hero__name {
+    font-size: 20px; /* Add your desired font size */
+    color: your-desired-color; /* Add your desired color */
+    /* Add any other styles you want for this specific span */
+  }
+  .hero__name--highlight {
+    font-size: 30px; /* Add your desired font size */
+    color: #779eb2; /* Add your desired color */
+    /* Add any other styles you want for this specific span */
+  }
