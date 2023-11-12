@@ -25,7 +25,7 @@ export default function Resume() {
 
   return (
     <div className="resume-container">
-      <section>
+      <section className="experience-section">
         <h2>Experience</h2>
         <div className="experience-container">
           <div className="experience-column">
