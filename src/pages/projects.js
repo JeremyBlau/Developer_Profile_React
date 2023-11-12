@@ -1,41 +1,47 @@
 // Import React
 import React from 'react';
 import '../styles/Projects.css';
+import ArtBeats from '../assets/images/ArtBeats.png';
+import CodingQuiz from '../assets/images/CodingQuiz.png';
+import SocialNetworkAPI from '../assets/images/SocialNetworkAPI.png';
+import DayWeather from '../assets/images/5DayWeather.png';
+import WebsiteSetup from '../assets/images/WebsiteSetup.png';
+import DoodleDuel from '../assets/images/DoodleDuel.png';
 
 const projectsData = [
   {
     title: 'Art Beats',
-    image: 'assets/images/ArtBeats.png',
+    image: ArtBeats,
     deployedLink: 'https://jeremyblau.github.io/ArtBeats/',
     githubLink: 'https://github.com/JeremyBlau/ArtBeats',
   },
   {
     title: '5 Day Weather Forcast API',
-    image: 'project2.jpg',
+    image: DayWeather,
     deployedLink: 'https://jeremyblau.github.io/Weather-Forecast-API/',
     githubLink: 'https://github.com/JeremyBlau/Weather-Forecast-API',
   },
   {
     title: 'Coding Quiz',
-    image: 'project3.jpg',
+    image: CodingQuiz,
     deployedLink: 'https://jeremyblau.github.io/Coding-quiz/',
     githubLink: 'https://github.com/JeremyBlau/Coding-quiz',
   },
   {
     title: 'Doodle Duel',
-    image: 'project4.jpg',
+    image: DoodleDuel,
     deployedLink: 'https://doodle-duel-p2-32e9f10a2b67.herokuapp.com/login',
     githubLink: 'https://github.com/Leucisticboi/DoodleDuel',
   },
   {
     title: 'Social Network API',
-    image: 'project5.jpg',
+    image: SocialNetworkAPI,
     deployedLink: 'https://watch.screencastify.com/v/qL9k6FlCQbkizq8bq66y',
     githubLink: 'https://github.com/JeremyBlau/Social_Network_API',
   },
   {
     title: 'Website Setup',
-    image: 'project6.jpg',
+    image: WebsiteSetup,
     deployedLink: 'https://github.com/JeremyBlau/Website_Setup',
     githubLink: 'https://jeremyblau.github.io/Website_Setup/',
   },

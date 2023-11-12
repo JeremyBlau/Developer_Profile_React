@@ -7,7 +7,7 @@
   
   /* Style for each individual project */
   .project {
-    width: 300px;
+    width: 500px; /* Increased width to 400px */
     margin: 20px;
     padding: 15px;
     border: 1px solid #ccc;
