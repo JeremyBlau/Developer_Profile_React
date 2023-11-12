@@ -45,7 +45,7 @@ export default function NavMenu() {
           <NavLink to="/home">Home</NavLink>
         </li>
         <li>
-          <NavLink to="/about">About</NavLink>
+          <NavLink to="/resume">Resume</NavLink>
         </li>
         <li>
           <NavLink to="/projects">Projects</NavLink>
