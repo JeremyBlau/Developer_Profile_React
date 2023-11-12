@@ -1,0 +1,34 @@
+section {
+    margin-top: 100px;
+    margin-left: 40px
+  }
+  
+  /* Style for the Download button */
+  button {
+    padding: 10px;
+    background-color: #4caf50; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Add a pointer cursor on hover */
+  }
+  
+  /* Add a hover effect for the button */
+  button:hover {
+    background-color: #45a049;
+  }
+  .resume-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .experience-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Optional: Adds some space between the columns */
+  }
+  
+  .experience-column {
+    text-align: left; /* Optional: Aligns text to the left within each column */
+  }
