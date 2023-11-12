@@ -2,7 +2,6 @@
 import React from 'react';
 import '../styles/project.css';
 
-// Sample data representing developer's applications
 const projectsData = [
   {
     title: 'Project 1',
