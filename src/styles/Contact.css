@@ -1,0 +1,60 @@
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed */
+  }
+  
+  /* Style for the form */
+  form {
+    width: 300px; /* Adjust the width as needed */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for the form elements */
+  form > div {
+    margin-bottom: 15px;
+  }
+  
+  /* Style for the submit button */
+  button {
+    padding: 10px;
+    background-color: #4caf50; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Add a pointer cursor on hover */
+  }
+  
+  /* Add a hover effect for the button */
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style for error messages */
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed */
+  }
+
+  .contact-title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 3px; /* Adjust the margin as needed */
+    color: #779eb2; /* Add a color for better visibility */
+  
+    /* Position the title */
+    position: relative;
+    top: -600px; /* Adjust the value as needed */
+  }

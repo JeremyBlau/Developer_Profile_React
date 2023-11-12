@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../styles/Contact.css';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -68,41 +69,49 @@ const Contact = () => {
 
   return (
     <div>
-      <h2>Contact Me</h2>
-      <form onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="name">Name:</label>
-          <input
-            type="text"
-            id="name"
-            name="name"
-            value={formData.name}
-            onChange={handleChange}
-          />
-        </div>
-        <div>
-          <label htmlFor="email">Email:</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            value={formData.email}
-            onChange={handleChange}
-          />
-          <p className="error">{formErrors.email}</p>
-        </div>
-        <div>
-          <label htmlFor="message">Message:</label>
-          <textarea
-            id="message"
-            name="message"
-            value={formData.message}
-            onChange={handleChange}
-          />
-          <p className="error">{formErrors.message}</p>
-        </div>
-        <button type="submit">Submit</button>
-      </form>
+      <div className="contact-container">
+        <form onSubmit={handleSubmit}>
+          <div>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Name"
+              value={formData.name}
+              onChange={handleChange}
+            />
+          </div>
+          <div>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email"
+              value={formData.email}
+              onChange={handleChange}
+            />
+            <p className="error" role="alert">
+              {formErrors.email}
+            </p>
+          </div>
+          <div>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Message"
+              value={formData.message}
+              onChange={handleChange}
+            />
+            <p className="error" role="alert">
+              {formErrors.message}
+            </p>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+      <h2 className="contact-title">
+        Contact me if you think I would be a good fit for your organization.
+      </h2>
     </div>
   );
 };
