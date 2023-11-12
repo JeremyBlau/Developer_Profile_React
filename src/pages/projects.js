@@ -1,43 +1,43 @@
 // Import React
 import React from 'react';
-import '../styles/project.css';
+import '../styles/Projects.css';
 
 const projectsData = [
   {
-    title: 'Project 1',
-    image: 'project1.jpg',
-    deployedLink: 'https://example.com/project1',
-    githubLink: 'https://github.com/example/project1',
+    title: 'Art Beats',
+    image: 'assets/images/ArtBeats.png',
+    deployedLink: 'https://jeremyblau.github.io/ArtBeats/',
+    githubLink: 'https://github.com/JeremyBlau/ArtBeats',
   },
   {
-    title: 'Project 2',
+    title: '5 Day Weather Forcast API',
     image: 'project2.jpg',
-    deployedLink: 'https://example.com/project2',
-    githubLink: 'https://github.com/example/project2',
+    deployedLink: 'https://jeremyblau.github.io/Weather-Forecast-API/',
+    githubLink: 'https://github.com/JeremyBlau/Weather-Forecast-API',
   },
   {
-    title: 'Project 3',
+    title: 'Coding Quiz',
     image: 'project3.jpg',
-    deployedLink: 'https://example.com/project3',
-    githubLink: 'https://github.com/example/project3',
+    deployedLink: 'https://jeremyblau.github.io/Coding-quiz/',
+    githubLink: 'https://github.com/JeremyBlau/Coding-quiz',
   },
   {
-    title: 'Project 4',
+    title: 'Doodle Duel',
     image: 'project4.jpg',
-    deployedLink: 'https://example.com/project4',
-    githubLink: 'https://github.com/example/project4',
+    deployedLink: 'https://doodle-duel-p2-32e9f10a2b67.herokuapp.com/login',
+    githubLink: 'https://github.com/Leucisticboi/DoodleDuel',
   },
   {
-    title: 'Project 5',
+    title: 'Social Network API',
     image: 'project5.jpg',
-    deployedLink: 'https://example.com/project5',
-    githubLink: 'https://github.com/example/project5',
+    deployedLink: 'https://watch.screencastify.com/v/qL9k6FlCQbkizq8bq66y',
+    githubLink: 'https://github.com/JeremyBlau/Social_Network_API',
   },
   {
-    title: 'Project 6',
+    title: 'Website Setup',
     image: 'project6.jpg',
-    deployedLink: 'https://example.com/project6',
-    githubLink: 'https://github.com/example/project6',
+    deployedLink: 'https://github.com/JeremyBlau/Website_Setup',
+    githubLink: 'https://jeremyblau.github.io/Website_Setup/',
   },
 ];
 
@@ -45,7 +45,7 @@ const projectsData = [
 export default function Projects() {
   return (
     <div className="projects-container">
-      <h1>This is the Projects Page</h1>
+      <h1>Enjoy my projects!</h1>
       {/* Map through the projectsData array to dynamically generate project elements */}
       {projectsData.map((project, index) => (
         <div key={index} className="project">

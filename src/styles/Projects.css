@@ -1,0 +1,49 @@
+.projects-container {
+    display: flex;
+    flex-direction: column; /* Set flex-direction to column */
+    align-items: center;
+    margin: 20px;
+  }
+  
+  /* Style for each individual project */
+  .project {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Style for project images */
+  .project img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for project titles */
+  .project h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for project links */
+  .project a {
+    display: block;
+    margin-top: 10px;
+    padding: 8px;
+    background-color: #4caf50; /* Green background color */
+    color: white; /* White text color */
+    text-decoration: none;
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Add a pointer cursor on hover */
+  }
+  
+  /* Add a hover effect for the links */
+  .project a:hover {
+    background-color: #45a049;
+  }
+  
