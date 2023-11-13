@@ -5,7 +5,7 @@ Screenshots
 <img width="1386" alt="image" src="https://github.com/JeremyBlau/Developer_Profile/assets/134236414/6363ef21-7600-4412-aa34-8264a4613df1">
 
 ## Deployment
-This application is not deplyed, but you can find a video walkthrough here: https://watch.screencastify.com/v/qL9k6FlCQbkizq8bq66y 
+This application is not currently deployed as I'm still being validated for Netlify but it does run locally.
 
 ## Installation
 To install and run this project locally, follow these steps:
