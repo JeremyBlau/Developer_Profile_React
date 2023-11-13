@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const NavMenuStyles = styled.div`
   position: fixed;
-  z-index: 100;
+  z-index: 101;
   top: 0;
   left: 0;
   width: 100%;
@@ -37,23 +37,47 @@ const NavMenuStyles = styled.div`
   }
 `;
 
+const ContentContainer = styled.div`
+  margin-bottom: 4rem; /* Adjust the margin-bottom based on your content height */
+`;
+
+const FooterStyles = styled.footer`
+  position: relative;
+  width: 100%;
+  text-align: center;
+  padding: 2rem;
+  background: var(--blue-grey);
+  color: var(--white);
+  z-index: 100;
+  bottom: 0;
+  position: fixed;
+`;
+
 export default function NavMenu() {
   return (
-    <NavMenuStyles>
-      <ul>
-        <li>
-          <NavLink to="/home">Home</NavLink>
-        </li>
-        <li>
-          <NavLink to="/resume">Resume</NavLink>
-        </li>
-        <li>
-          <NavLink to="/projects">Projects</NavLink>
-        </li>
-        <li>
-          <NavLink to="/contact">Contact</NavLink>
-        </li>
-      </ul>
-    </NavMenuStyles>
+    <>
+      <NavMenuStyles>
+        <ul>
+          <li>
+            <NavLink to="/home">Home</NavLink>
+          </li>
+          <li>
+            <NavLink to="/resume">Resume</NavLink>
+          </li>
+          <li>
+            <NavLink to="/projects">Projects</NavLink>
+          </li>
+          <li>
+            <NavLink to="/contact">Contact</NavLink>
+          </li>
+        </ul>
+      </NavMenuStyles>
+
+      <ContentContainer>{}</ContentContainer>
+
+      <FooterStyles>
+        <p>&copy; 2023 Your Website. All rights reserved.</p>
+      </FooterStyles>
+    </>
   );
 }
