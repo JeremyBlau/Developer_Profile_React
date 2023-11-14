@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import HeroImg from '../assets/images/Hero.png';
+import HeroImg from '../assets/images/hero.png';
 import PText from './PText';
 import '../styles/HeroSection.css';
 import Button from './Button';
