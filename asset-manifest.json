@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Developer_Profile_React/static/css/main.50738cfc.css",
+    "main.js": "/Developer_Profile_React/static/js/main.9df0ef41.js",
+    "static/media/hero.png": "/Developer_Profile_React/static/media/hero.e75dbb4d4e61d145e081.png",
+    "static/media/WebsiteSetup.png": "/Developer_Profile_React/static/media/WebsiteSetup.9cf8cd18f962167fd51f.png",
+    "static/media/ArtBeats.png": "/Developer_Profile_React/static/media/ArtBeats.eb688f6846b7fada3ddc.png",
+    "static/media/DoodleDuel.png": "/Developer_Profile_React/static/media/DoodleDuel.1dc0ba1c3dad980ba626.png",
+    "static/media/CodingQuiz.png": "/Developer_Profile_React/static/media/CodingQuiz.5bf0c7d3b24da1171e4f.png",
+    "static/media/Montserrat-Bold.ttf": "/Developer_Profile_React/static/media/Montserrat-Bold.079ca05d3ded9bc107ab.ttf",
+    "static/media/Montserrat-SemiBold.ttf": "/Developer_Profile_React/static/media/Montserrat-SemiBold.fa8441f345d83a0bc4ec.ttf",
+    "static/media/5DayWeather.png": "/Developer_Profile_React/static/media/5DayWeather.6ff21c7126c90a30c114.png",
+    "static/media/SocialNetworkAPI.png": "/Developer_Profile_React/static/media/SocialNetworkAPI.0c5205bf90e5c6701355.png",
+    "static/media/Resume_Jeremy Wallace Blau.pdf": "/Developer_Profile_React/static/media/Resume_Jeremy Wallace Blau.fddb76737c7f384905a6.pdf",
+    "static/media/RobotoMono-Regular.ttf": "/Developer_Profile_React/static/media/RobotoMono-Regular.418a8f9f65ccad0918af.ttf",
+    "index.html": "/Developer_Profile_React/index.html",
+    "static/media/social-media-arrow.svg": "/Developer_Profile_React/static/media/social-media-arrow.f5e093ceb316785e72dc77d75e5ed04f.svg",
+    "main.50738cfc.css.map": "/Developer_Profile_React/static/css/main.50738cfc.css.map",
+    "main.9df0ef41.js.map": "/Developer_Profile_React/static/js/main.9df0ef41.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50738cfc.css",
+    "static/js/main.9df0ef41.js"
+  ]
+}
