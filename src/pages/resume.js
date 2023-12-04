@@ -1,25 +1,15 @@
 import React from 'react';
-import myResume from '../assets/resume/Resume_Jeremy Wallace Blau.pdf';
 import '../styles/resume.css';
+import ResumeFile from '../assets/resume/Resume_Jeremy Blau.pdf';
 
-export default function Resume() {
-  // Function to handle the download action
+const Resume = () => {
   const handleDownload = () => {
-    // Use the imported resume file
-    const resumeUrl = myResume;
-
-    // Create an anchor element with the download attribute
+    const resumeUrl = ResumeFile;
     const link = document.createElement('a');
     link.href = resumeUrl;
     link.download = 'Resume_Jeremy Wallace Blau.pdf';
-
-    // Append the anchor element to the body
     document.body.appendChild(link);
-
-    // Trigger a click on the anchor element
     link.click();
-
-    // Remove the anchor element from the body
     document.body.removeChild(link);
   };
 
@@ -61,4 +51,6 @@ export default function Resume() {
       </section>
     </div>
   );
-}
+};
+
+export default Resume;

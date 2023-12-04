@@ -76,7 +76,7 @@ export default function NavMenu() {
       <ContentContainer>{}</ContentContainer>
 
       <FooterStyles>
-        <p>&copy; 2023 Your Website. All rights reserved.</p>
+        <p>&copy; 2023 Jeremy Blau. All rights reserved.</p>
       </FooterStyles>
     </>
   );

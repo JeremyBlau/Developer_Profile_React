@@ -1,57 +1,54 @@
 /* resume.css */
 
 section {
-    margin-top: 100px;
-    margin-left: 40px;
-  }
-  
-  /* Style for the Download button */
-  button {
-    padding: 15px; /* Increased padding for a larger button */
-    font-size: 16px; /* Increased font size for the button text */
-    background-color: #4caf50; /* Green background color */
-    color: white; /* White text color */
-    border: none; /* Remove border */
-    border-radius: 4px; /* Rounded corners */
-    cursor: pointer; /* Add a pointer cursor on hover */
-  }
-  
-  /* Add a hover effect for the button */
-  button:hover {
-    background-color: #45a049;
-  }
-  
-  .resume-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .experience-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px; /* Optional: Adds some space between the columns */
-  }
-  
-  .experience-column {
-    text-align: left; /* Optional: Aligns text to the left within each column */
-  }
-  
-  .experience-section h2 {
-    color: #779eb2;
-    text-align: center; /* Center-align the "Experience" heading */
-    font-size: 24px; /* Increased font size for the "Experience" heading */
-    margin-bottom: 10px; /* Added margin bottom for space between "Experience" and the section content */
-  }
-  
-  .experience-column h3 {
-    font-size: 24px; /* Increased font size for section headings */
-    font-weight: bold; /* Bold text */
-    text-decoration: underline; /* Underlined text */
-  }
-  
-  .experience-column ul {
-    font-size: 18px; /* Increased font size for the text within the list */
-    list-style-type: none; /* Remove default list styling */
-  }
-  
+  margin-top: 100px;
+  margin-left: 40px;
+}
+
+button {
+  padding: 15px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.resume-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experience-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.experience-column {
+  text-align: left;
+}
+
+.experience-section h2 {
+  color: #779eb2;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.experience-column h3 {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.experience-column ul {
+  font-size: 18px;
+  list-style-type: none;
+}
