@@ -1,16 +1,17 @@
-import React, { useState } from 'react';
-import '../styles/Contact.css';
+import React, { useState } from "react";
+import "../styles/Contact.css";
+import ContactForm from "../components/ContactForm";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: '',
+    name: "",
+    email: "",
+    message: "",
   });
 
   const [formErrors, setFormErrors] = useState({
-    email: '',
-    message: '',
+    email: "",
+    message: "",
   });
 
   const handleChange = (e) => {
@@ -22,7 +23,7 @@ const Contact = () => {
     // Clear the corresponding error when the user starts typing
     setFormErrors({
       ...formErrors,
-      [e.target.name]: '',
+      [e.target.name]: "",
     });
   };
 
@@ -33,7 +34,7 @@ const Contact = () => {
     if (!formData.email || !/^\S+@\S+\.\S+$/.test(formData.email)) {
       setFormErrors((prevErrors) => ({
         ...prevErrors,
-        email: 'Please enter a valid email address.',
+        email: "Please enter a valid email address.",
       }));
       isValid = false;
     }
@@ -42,7 +43,7 @@ const Contact = () => {
     if (!formData.message.trim()) {
       setFormErrors((prevErrors) => ({
         ...prevErrors,
-        message: 'Please enter a message.',
+        message: "Please enter a message.",
       }));
       isValid = false;
     }
@@ -56,21 +57,25 @@ const Contact = () => {
     if (validateForm()) {
       // For demonstration purposes, you can replace this with the actual logic
       // to send an email using a backend service or an API.
-      console.log('Form submitted:', formData);
+      console.log("Form submitted:", formData);
 
       // Reset the form after submission
       setFormData({
-        name: '',
-        email: '',
-        message: '',
+        name: "",
+        email: "",
+        message: "",
       });
     }
   };
 
   return (
-    <div>
+ 
       <div className="contact-container">
-        <form onSubmit={handleSubmit}>
+        <h2 className="contact-title">
+          Contact me if you think I would be a good fit for your organization.
+        </h2>
+        {/* <form onSubmit={handleSubmit}>
+          
           <div>
             <input
               type="text"
@@ -107,12 +112,10 @@ const Contact = () => {
             </p>
           </div>
           <button type="submit">Submit</button>
-        </form>
+        </form> */}
+        <ContactForm />
       </div>
-      <h2 className="contact-title">
-        Contact me if you think I would be a good fit for your organization.
-      </h2>
-    </div>
+  
   );
 };
 
