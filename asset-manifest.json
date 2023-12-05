@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Developer_Profile_React/static/css/main.73aaf07f.css",
-    "main.js": "/Developer_Profile_React/static/js/main.dc1484e0.js",
+    "main.css": "/Developer_Profile_React/static/css/main.1557d6a7.css",
+    "main.js": "/Developer_Profile_React/static/js/main.5aae3374.js",
     "static/media/hero.png": "/Developer_Profile_React/static/media/hero.e75dbb4d4e61d145e081.png",
     "static/media/WebsiteSetup.png": "/Developer_Profile_React/static/media/WebsiteSetup.9cf8cd18f962167fd51f.png",
     "static/media/ArtBeats.png": "/Developer_Profile_React/static/media/ArtBeats.eb688f6846b7fada3ddc.png",
@@ -15,11 +15,11 @@
     "static/media/RobotoMono-Regular.ttf": "/Developer_Profile_React/static/media/RobotoMono-Regular.418a8f9f65ccad0918af.ttf",
     "index.html": "/Developer_Profile_React/index.html",
     "static/media/social-media-arrow.svg": "/Developer_Profile_React/static/media/social-media-arrow.f5e093ceb316785e72dc77d75e5ed04f.svg",
-    "main.73aaf07f.css.map": "/Developer_Profile_React/static/css/main.73aaf07f.css.map",
-    "main.dc1484e0.js.map": "/Developer_Profile_React/static/js/main.dc1484e0.js.map"
+    "main.1557d6a7.css.map": "/Developer_Profile_React/static/css/main.1557d6a7.css.map",
+    "main.5aae3374.js.map": "/Developer_Profile_React/static/js/main.5aae3374.js.map"
   },
   "entrypoints": [
-    "static/css/main.73aaf07f.css",
-    "static/js/main.dc1484e0.js"
+    "static/css/main.1557d6a7.css",
+    "static/js/main.5aae3374.js"
   ]
 }
